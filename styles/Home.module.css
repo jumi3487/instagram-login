@@ -111,9 +111,49 @@ font-weight: bold;
 .generalcontainer {
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   
 }
 .phone{
   margin-right: 50px;
+
 }
+
+/* Media query for iPad Air */
+@media screen 
+  and (min-device-width: 841px) 
+  and (max-device-width: 1024px) {
+    .box1 {
+      border: 1px solid var(--gray);
+      display: flex;
+      margin: 0 0 0 10px;
+      padding: 30px;
+      align-items: center;
+    }
+
+    /* Hide the phone image on iPad Air */
+    .phone {
+      display: none;
+    }
+}
+
+/* Media query for smaller screens (390px to 840px) */
+@media screen 
+  and (max-device-width: 840px) {
+    .box1 {
+      border: 0;
+      padding-bottom: 0;
+  
+    }
+    .box2 {
+      border: 0;
+      padding: 0;
+      
+    
+    }
+    .phone {
+      display: none;
+    }
+}
+

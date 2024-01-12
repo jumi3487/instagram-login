@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
+
+
+.links {
+    margin-right:10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 80%;
+    color: var(--gray);
+}

@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import Footer from '@/components/Footer'
 import TextBox from '@/components/TextBox'
+import Link from '@/components/Link'
 
 
 
@@ -57,9 +58,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
 </main>
 
+      <Link/>
       <Footer/>
       </div>
       </div>
