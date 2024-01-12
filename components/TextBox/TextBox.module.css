@@ -1,0 +1,11 @@
+.text {
+    border: 1px solid var(--gray);
+    height: 30px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: auto auto 10px auto;
+    align-items: center;
+    font-size: 80%;
+}
